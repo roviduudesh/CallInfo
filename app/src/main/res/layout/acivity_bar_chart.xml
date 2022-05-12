@@ -46,10 +46,10 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_style"
         android:fontFamily="sans-serif-medium"
+        android:onClick="exportData"
         android:shadowColor="#FFFFFF"
         android:text="Export Data"
         android:textAllCaps="false"
-        android:onClick="aa"
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 

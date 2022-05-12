@@ -82,7 +82,7 @@ public class BarChartActivity extends AppCompatActivity {
         }
     }
 
-    public void aa(View v){
+    public void exportData(View v){
 
         String state = Environment.getExternalStorageState();
         if (!Environment.MEDIA_MOUNTED.equals(state)) {
